@@ -1,0 +1,117 @@
+body
+{
+    background-color: white;
+}
+
+.header
+{
+    position: absolute;
+    background-color: aqua;
+    color: white;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    top: 0;
+    left: 0;
+}
+
+.barang1
+{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 70px;
+}
+
+.barang1 img{
+    position: relative;
+    width: 274px;
+    height: 400px;
+}
+
+.barang1 h2{
+    margin-top: -130px;
+}
+
+.barang2
+{
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 400px;
+}
+
+.barang2 img{
+    position: relative;
+    width: 306px;
+    height: 204px;
+}
+
+.barang2 h2{
+    margin-top: 0px;
+}
+
+.barang3
+{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 70px;
+}
+
+.barang3 img{
+    position: relative;
+    width: 238.5px;
+    height: 279.5px;
+}
+
+.barang3 h2{
+    margin-top: -40px;
+}
+
+.barang4
+{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 400px;
+}
+
+.barang4 img{
+    position: relative;
+    width: 400px;
+    height: 320px;
+}
+
+.barang4 h2{
+    margin-top: -35px;
+}
+
+.perhitungan
+{
+    text-align: center;
+    position: fixed;
+    width: 350px;
+    height: 350px;
+    top: 15vh;
+    right: 5vh;
+    background-color: white;
+}
+
+.perhitungan .note
+{
+    text-align: left;
+}
+
+input[type=submit], input[type=reset] {
+    background-color: #eb1e1e;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    margin: 20px 12px;
+    cursor: pointer;
+    font-size: 15px;
+}
+input[type=reset]
+{
+    background-color: #8a3a04;
+}
