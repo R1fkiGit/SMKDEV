@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TokoSepatuX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h2>Selamat Datang di Toko Sepatu kami pilihlah Sepatu yang kamu inginkan</h2>
+    </div>
+
+    <section class="perhitungan">
+        <h3>Harga yang dibayar</h3>
+        <div class="note"><p>Catatan: masukan nama sepatu yang ingin anda beli,
+           masukan juga harga barang tersebut, dan
+           berapa jumlah barang yang ingin dibeli
+        </p></div>
+        <form id="formInput" name="formInput" action="" method="post" enctype="multipart/form-data">
+            Nama Barang: <br>
+            <input type="text" name="barang" onkeyup="Perhitungan(this.value)" onKeyPress="return isNumberKey(event)"><br> 
+            Harga Satuan: <br> 
+            <input type="text" name="harga" onkeyup="Perhitungan(this.value)" onKeyPress="return isNumberKey(event)"><br> 
+            Jumlah: <br>
+            <input type="text" name="jumlah" onkeyup="Perhitungan(this.value)" onKeyPress="return isNumberKey(event)"><br>
+            Total Harga: <br>
+            <input type="text" name="txtDisplay" value="" readonly="readonly">
+            <br>
+            <input type="reset" value="reset input">
+            <input type="submit" name="beli" onclick="tekan()" value="Beli">
+        </form>
+    </section>
+
+    <div class="barang1">
+        <img src="img/Sepatu 1.png">
+        <h2>SEPATU KULIT MERAH</h2>
+        <h3 id="20">$20</h3>
+    </div>
+
+    <div class="barang2">
+        <img src="img/Sepatu 2.png">
+        <h2>SEPATU MERAH</h2>
+        <h3 id="30">$30</h3>
+    </div>
+
+    <div class="barang3">
+        <img src="img/Sepatu 3.png">
+        <h2>SEPATU HIJAU</h2>
+        <h3 id="45">$45</h3>
+    </div>
+
+    <div class="barang4">
+        <img src="img/Sepatu 4.png">
+        <h2>SEPATU OREN</h2>
+        <h3 id="15">$15</h3>
+    </div>
+    
+<script type="text/javascript" language="Javascript" src="main.js"></script>
+</body>
+</html>
